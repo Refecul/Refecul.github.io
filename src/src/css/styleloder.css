@@ -1,0 +1,40 @@
+body {
+    background: rgb(13, 51, 155) ;
+}
+
+.circle {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgb(26, 17, 104);
+    border-top: 10px solid #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: circle 2s infinite linear;
+    -webkit-animation: circle 2s infinite linear;
+    -moz-animation: circle 2s infinite linear;
+    -ms-animation: circle 2s infinite linear;
+    -o-animation: circle 2s infinite linear;
+}
+
+@keyframes circle {
+    from {
+        transform: translate(-20%, 50%) rotate(0deg);
+        -webkit-transform: translate(-20%, 50%) rotate(0deg);
+        -moz-transform: translate(-20%, 50%) rotate(0deg);
+        -ms-transform: translate(-20%, 50%) rotate(0deg);
+        -o-transform: translate(-20%, 50%) rotate(0deg);
+}
+    to {
+        transform: translate(-20%, 50%) rotate(360deg);
+        -webkit-transform: translate(-20%, 50%) rotate(360deg);
+        -moz-transform: translate(-20%, 50%) rotate(360deg);
+        -ms-transform: translate(-20%, 50%) rotate(360deg);
+        -o-transform: translate(-20%, 50%) rotate(360deg);
+}
+}
